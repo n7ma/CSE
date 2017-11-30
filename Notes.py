@@ -15,11 +15,11 @@ car_cylinders = 8
 car_mpg = 9000.1
 
 # Inline printing
-print("I have a car called the %s" The GTR)
+print("I have a car called the %s" % car_type)
 
 # Function
 
-]
+
 def print_hw():
     print('Hello World"')
 
@@ -29,7 +29,7 @@ print_hw()
 print_hw()
 
 def say_hi(name): # nameis a premeter
-print('Hello ')
+    print('Hello ')
 
 say_hi("Jimmy")
 
@@ -61,5 +61,33 @@ def grade_calc(percentage):
         return "c"
 
 
+'''Write a function called "happy_bday"
+that "sings" (prints) Happy birthday
 
-    
+It must take one permeter called "name"
+'''
+
+def happy_bday(name):
+    print("Happy birthday to you")
+    print("Happy birthday to you")
+    print("Happy birthday to %s" % name)
+    print("Happy birthday to you")
+
+happy_bday ('john')
+
+
+# Loops
+
+for num in range(10):
+    print(num + 1)
+
+# DO NOT RUN !!
+a = 1
+while True:
+    print (a)
+
+
+    # Random Numbers
+
+import random   # This Should be on line 1
+print(random,randit(0, 100)
